@@ -43,10 +43,10 @@ if (!$.isNode() && !startbodys.indexOf("&") == -1) {
         LookBody = lookbodys.split('&');
     }
     if ($.isNode()) {
-        if (process.env.YOUTH_START && process.env.YOUTH_START1.indexOf('&') > -1) {
-            StartBody = process.env.YOUTH_START1.split('&');
+        if (process.env.YOUTH_START && process.env.YOUTH_STARTS.indexOf('&') > -1) {
+            StartBody = process.env.YOUTH_STARTS.split('&');
         } else {
-            StartBody = [process.env.YOUTH_START1]
+            StartBody = [process.env.YOUTH_STARTS]
         };
         if (process.env.YOUTH_LOOK && process.env.YOUTH_LOOK.indexOf('&') > -1) {
             LookBody = process.env.YOUTH_LOOK.split('&');
