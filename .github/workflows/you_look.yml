@@ -29,7 +29,7 @@ jobs:
       - name: '运行 【中青look】'
         if: env.YOUTH_STARTS
         run: |
-          node youth_gain.js
+          node you_look.js
         env:
           YOUTH_STARTS: ${{ secrets.YOUTH_STARTS }}
           YOUTH_LOOK: ${{ secrets.YOUTH_LOOK}}
