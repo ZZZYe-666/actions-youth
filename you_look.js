@@ -43,7 +43,7 @@ if (!$.isNode() && !startbodys.indexOf("&") == -1) {
         LookBody = lookbodys.split('&');
     }
     if ($.isNode()) {
-        if (process.env.YOUTH_START && process.env.YOUTH_STARTS.indexOf('&') > -1) {
+        if (process.env.YOUTH_STARTS && process.env.YOUTH_STARTS.indexOf('&') > -1) {
             StartBody = process.env.YOUTH_STARTS.split('&');
         } else {
             StartBody = [process.env.YOUTH_STARTS]
