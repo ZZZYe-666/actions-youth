@@ -6,7 +6,7 @@ name: you_look(中青look)
 on:
   workflow_dispatch:
   schedule:
-     - cron: '33 0 * * *'
+     - cron: '33 0,10 * * *'
   watch:
     types: you_look
 jobs:
