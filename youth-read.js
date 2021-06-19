@@ -18,7 +18,9 @@ let artsnum = 0, videosnum = 0;
 let videoscore = 0,readscore = 0;
 let artArr = [], delbody = 0;
 if (isGetbody = typeof $request !==`undefined`) {
+   $.msg($.name, "1正在获取第" + bodys.length + "个阅读请求: 🎉", ``)
    Getbody();
+   $.msg($.name, "2正在获取第" + bodys.length + "个阅读请求: 🎉", ``)
    $.done()
 } 
 let lastIndex = $.getdata('zqbody_index')
@@ -225,11 +227,13 @@ function readTime() {
 }
 
 function Getbody() {
+    $.msg($.name, "3正在获取第" + bodys.length + "个阅读请求: 🎉", ``)
     if ($request && $request.method != `OPTIONS` && $request.url.match(/\/article\/info\/get/)) {
         bodyVal = $request.url.split("?")[1];
         if (YouthBody) {
             if (YouthBody.indexOf(bodyVal) > -1) {
                 $.log("此阅读请求已存在，本次跳过")
+                $.msg("此阅读请求已存在，本次跳过")
             } else if (YouthBody.indexOf(bodyVal) == -1) {
                 YouthBodys = YouthBody + "&" + bodyVal;
                 $.setdata(YouthBodys, 'youth_autoread');
