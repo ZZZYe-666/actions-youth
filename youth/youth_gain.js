@@ -25,7 +25,6 @@ let startbodys = $.getdata('youth_start');
 let lookbodys = $.getdata('youth_look')
 
 if (isGetCookie = typeof $request !==`undefined`) {
-   $.msg($.name, '1111')
    GetCookie();
    $.done()
 } 
@@ -220,7 +219,6 @@ function gainHost(api, body) {
 function GetCookie() {
     if ($request && $request.method != 'OPTIONS' && $request.url.match(/\/browse_start\.json/)) {
         startbodyVal = $request.body;
-        $.msg($.name, '2222')
         if (startbodys) {
             if (startbodys.indexOf(startbodyVal) > -1) {
                 $.msg($.name, '阅读请求重复，本次跳过');
@@ -235,7 +233,6 @@ function GetCookie() {
         $.log("获取浏览赚请求: " + startbodyVal);
         $.msg($.name, '获取浏览赚请求成功')
     } else if ($request && $request.method != 'OPTIONS' && $request.url.match(/\/adlickstart\.json/)) {
-        $.msg($.name, '2222')
         seeVal = $request.body;
         if (lookbodys) {
             if (lookbodys.indexOf(seeVal) > -1) {
