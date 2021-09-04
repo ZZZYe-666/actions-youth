@@ -42,7 +42,7 @@ doShare();
 
 async function doShare() {
 	
-	for(let i=0;i<8;i++){
+	for(let i=0;i<12;i++){
 		console.log("-------" + articles[i]);
 		console.log("-------" + signss[i]);
         await postShareInfoa(articles[i],signss[i], i)
