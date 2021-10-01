@@ -23,8 +23,11 @@ let articles = ["https://script.baertt.com/count2/callback?si=c66e89337e0f319cb2
 "https://script.baertt.com/count2/callback?si=5a2094a0100892d5cfd8f6930f7535b4&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DdQOvnJNrgR0GzE9azZLJEnh2rnpeurz5xnjaV6yqY2lXojxeM8%2526uid%253D58529441%2526phone_code%253D3a5bc3098635f75d03e952d21b4710f1%2526scid%253D39987198%2526time%253D1630785093%2526app_version%253D2.0.2%2526sign%253Dc565a17d09a7d79db5a448f251ce0bb7&_=1630785234602&jsonpcallback=jsonp6",
 "https://script.baertt.com/count2/callback?si=5a2094a0100892d5cfd8f6930f7535b4&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253D0Z3Jgv96wqmVPeM7or3rYougA852CxX3rXD4jpGDnANbo8KXQr%2526uid%253D58529441%2526phone_code%253D3a5bc3098635f75d03e952d21b4710f1%2526scid%253D39972081%2526time%253D1630686790%2526app_version%253D2.0.2%2526sign%253Dd2e4aab5f8203f5696bbc63f26897863&_=1630686836608&jsonpcallback=jsonp6",
 "https://script.baertt.com/count2/callback?si=5a2094a0100892d5cfd8f6930f7535b4&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253D0Z3Jgv96wqmVPeM7or39WdCgA852CxXrlV94jpGDnANbo8KXQr%2526uid%253D58529441%2526phone_code%253D3a5bc3098635f75d03e952d21b4710f1%2526scid%253D39969577%2526time%253D1630785121%2526app_version%253D2.0.2%2526sign%253Dc6edee6be21efbe6f29294b0985dc32d&_=1630785414874&jsonpcallback=jsonp6",
-"https://script.baertt.com/count2/callback?si=f76bcbd606feb7c913a598f20f5b45f9&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DX6AKVevx2zmNQOjaBJDgzghBXJAlf6AjPzLad93krDoJqw0WYn%2526uid%253D58529441%2526phone_code%253D3a5bc3098635f75d03e952d21b4710f1%2526scid%253D39332600%2526time%253D1630785703%2526app_version%253D2.0.2%2526sign%253D7b044199297b199ac85841aea65b7d43&_=1630785714348&jsonpcallback=jsonp6"
-	       ]
+"https://script.baertt.com/count2/callback?si=f76bcbd606feb7c913a598f20f5b45f9&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DX6AKVevx2zmNQOjaBJDgzghBXJAlf6AjPzLad93krDoJqw0WYn%2526uid%253D58529441%2526phone_code%253D3a5bc3098635f75d03e952d21b4710f1%2526scid%253D39332600%2526time%253D1630785703%2526app_version%253D2.0.2%2526sign%253D7b044199297b199ac85841aea65b7d43&_=1630785714348&jsonpcallback=jsonp6",
+"https://script.baertt.com/count2/callback?si=01a5a49e88b28760a54ee34bcc049106&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fwapshare_six%253Fsignature%253DVMYqRmZGljQD8pAPB3aDMggJgsRKlpN1Xy9O06evWJwbxoN5KL%2526scene_id%253Dhome_feed%2526share_id%253D59228026402705041633117184%2526time%253D1633117184&_=1633117200401&jsonpcallback=jsonp6",
+"https://script.baertt.com/count2/callback?si=1cd072402eec1a2490cdb767dd629222&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fwapshare_six%253Fsignature%253DNRxPz8j0mdBYbOGDW91l288BQunlDQM7yAXV56qwogJEpkLK2e%2526scene_id%253Dhome_feed%2526share_id%253D59228026402706051633118293%2526time%253D1633118293&_=1633118325563&jsonpcallback=jsonp6",
+"https://script.baertt.com/count2/callback?si=01a5a49e88b28760a54ee34bcc049106&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fwapshare_six%253Fsignature%253DNqylzJV6MGKj23RQPraW6vWkdTb3pJY7EYOAgBndo9ZkDbepv5%2526scene_id%253Dhome_feed%2526share_id%253D59228026401577251633118436%2526time%253D1633118436&_=1633118450820&jsonpcallback=jsonp6",
+"https://script.baertt.com/count2/callback?si=c9be5ce58ae9cfa958238177649d35f7&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fwapshare_six%253Fsignature%253DkzYx0ngZLqblOM65PN7LKVVgRujdnEx4E3GQoepJDX9dv8AB2W%2526scene_id%253Dhome_feed%2526share_id%253D59228026402706831633118631%2526time%253D1633118631&_=1633118645016&jsonpcallback=jsonp6"	       ]
 let signss = [  "c66e89337e0f319cb245de5a8518748d",
 		"cf21e7b069f34c513be6c3f10d98cbab",
 		"950800e8ea79f4132372fcc760708ac0",
@@ -36,13 +39,17 @@ let signss = [  "c66e89337e0f319cb245de5a8518748d",
 		"5a2094a0100892d5cfd8f6930f7535b4",
 		"5a2094a0100892d5cfd8f6930f7535b4",
 		"5a2094a0100892d5cfd8f6930f7535b4",
-		"f76bcbd606feb7c913a598f20f5b45f9"
+		"f76bcbd606feb7c913a598f20f5b45f9",
+		"01a5a49e88b28760a54ee34bcc049106",
+		"1cd072402eec1a2490cdb767dd629222",
+		"01a5a49e88b28760a54ee34bcc049106",
+		"c9be5ce58ae9cfa958238177649d35f7"
 ]
 doShare();
 
 async function doShare() {
 	
-	for(let i=0;i<12;i++){
+	for(let i=0;i<16;i++){
 		console.log("-------" + articles[i]);
 		console.log("-------" + signss[i]);
         await postShareInfoa(articles[i],signss[i], i)
