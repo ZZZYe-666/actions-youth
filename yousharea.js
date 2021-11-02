@@ -17,15 +17,20 @@ let articles = ["https://script.baertt.com/count2/callback?si=ece7a82de85bc74597
                "https://script.baertt.com/count2/callback?si=4c4f37e99d677042a503506bb19ea727&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_zero%253Fsignature%253DzLbNjJ5wr0YegkWEG37orANVnUgBwM84DP6vqOn8lB2py9XRQx%2526scene_id%253Dhome_feed%2526share_id%253D59501600405824381635698017732%2526time%253D1635698018759&_=1635699579334&jsonpcallback=jsonp6",
 	       "https://script.baertt.com/count2/callback?si=ece7a82de85bc7459798e59121f3ed3a&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_zero%253Fsignature%253D5NPeoJjl0pEAqLZYQM4q23RdJSnxWMk7692Vrk3gBdwXDyWK8b%2526scene_id%253Dplaced_top%2526share_id%253D59463690406052101635700147683%2526time%253D1635700148513&_=1635700181267&jsonpcallback=jsonp6",
 		"https://script.baertt.com/count2/callback?si=2023f835bd66c153a708bb19c656d9ab&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_zero%253Fsignature%253DbD6x5nzGA2pvRerWXy4Q8bN6EIV9Qrd1Og8LdMkQlPVqJYN0Bo%2526scene_id%253Dplaced_top%2526share_id%253D59463690406052661635700157613%2526time%253D1635700158527&_=1635700208477&jsonpcallback=jsonp6",
-		"https://script.baertt.com/count2/callback?si=4c4f37e99d677042a503506bb19ea727&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_zero%253Fsignature%253D5NPeoJjl0pEAqLZYQM4q23Rq2SnxWMk7692Vrk3gBdwXDyWK8b%2526scene_id%253Dplaced_top%2526share_id%253D59463690406054101635700166981%2526time%253D1635700167786&_=1635700224651&jsonpcallback=jsonp6"
-	       
+		"https://script.baertt.com/count2/callback?si=4c4f37e99d677042a503506bb19ea727&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_zero%253Fsignature%253D5NPeoJjl0pEAqLZYQM4q23Rq2SnxWMk7692Vrk3gBdwXDyWK8b%2526scene_id%253Dplaced_top%2526share_id%253D59463690406054101635700166981%2526time%253D1635700167786&_=1635700224651&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=29c5c2381ebd3ba26c1438e15ea1c487&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DXwoQBWe23qDAVz946lJQVyu26mbYTkEmoXnavNyb8EMlgYnm6k%2526uid%253D59316411%2526phone_code%253D101073e1dbe81e7436dc5af3c917a010%2526scid%253D40629511%2526time%253D1635870575%2526app_version%253D2.0.2%2526sign%253D48446247e29e88b49d79f7e694a48ec9&_=1635870698055&jsonpcallback=jsonp6",
+	       "https://script.baertt.com/count2/callback?si=4c4f37e99d677042a503506bb19ea727&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DKYJBMEDexQprwO0aJBYYGKinyV0jCl8ENPAaj5zbg8RLkP9oXd%2526uid%253D59316411%2526phone_code%253D101073e1dbe81e7436dc5af3c917a010%2526scid%253D40617429%2526time%253D1635870737%2526app_version%253D2.0.2%2526sign%253Db8d97b45651d7ff13737397f8efc6550&_=1635870810452&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=91a27a2be1c451f3dc0da8f0575ae39f&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DVOZvBzYN5rkDxgX7YY5O0Gu2nM9VTVOPr8k7L3yAP6WMnmlGK9%2526uid%253D59316411%2526phone_code%253D101073e1dbe81e7436dc5af3c917a010%2526scid%253D40646867%2526time%253D1635870924%2526app_version%253D2.0.2%2526sign%253D2cb8f08768e228ac1a9dc1461e0356b7&_=1635870939982&jsonpcallback=jsonp6"
 	       ]
 let signss = [  "ece7a82de85bc7459798e59121f3ed3a",
 		"2023f835bd66c153a708bb19c656d9ab",
 		"4c4f37e99d677042a503506bb19ea727",
 	      "ece7a82de85bc7459798e59121f3ed3a",
 		"2023f835bd66c153a708bb19c656d9ab",
-		"4c4f37e99d677042a503506bb19ea727"
+		"4c4f37e99d677042a503506bb19ea727",
+	      "29c5c2381ebd3ba26c1438e15ea1c487",
+	      "4c4f37e99d677042a503506bb19ea727",
+	      "91a27a2be1c451f3dc0da8f0575ae39f"
 ]
 doShare();
 
