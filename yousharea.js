@@ -26,7 +26,10 @@ let articles = ["https://script.baertt.com/count2/callback?si=ece7a82de85bc74597
 		"https://script.baertt.com/count2/callback?si=0ae6d9834dc5f7d7839ea602033d669a&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_seven%253Fsignature%253DzLbNjJ5wr0YegkWEG37orRvjBugjXZZ4DP6vqOn8lB2py9XRQx%2526scene_id%253Dhome_feed%2526share_id%253D59227867405448171635871384313%2526time%253D1635871385807&_=1635871558860&jsonpcallback=jsonp6",
 		"https://script.baertt.com/count2/callback?si=29c5c2381ebd3ba26c1438e15ea1c487&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_two%253Fsignature%253DNXjrme82G3An0wVvWpamvoORmHxBNPV1gq9dJKyL5YRxElM6Zo%2526scene_id%253Dhome_feed%2526share_id%253D59746302401131341635874536588%2526time%253D1635874537784&_=1635874588317&jsonpcallback=jsonp6",
 		"https://script.baertt.com/count2/callback?si=649c9ae52a87668261d3fbf74fb9fbcb&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_two%253Fsignature%253DZry0KPXd5RYDQVznvq4vzpAOvcODPmR4GlE6go9mAJkeON2wjW%2526scene_id%253Dhome_feed%2526share_id%253D59746302406310231635874622777%2526time%253D1635874623755&_=1635874679468&jsonpcallback=jsonp6",
-		"https://script.baertt.com/count2/callback?si=91a27a2be1c451f3dc0da8f0575ae39f&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_two%253Fsignature%253DV5EWkpzrBZdXGYOlmQ4X6dVLxs0JPxGaoK2nvbNxqe03PjJw9A%2526scene_id%253Dhome_feed%2526share_id%253D59746302406399291635874649015%2526time%253D1635874649888&_=1635874717270&jsonpcallback=jsonp6"
+		"https://script.baertt.com/count2/callback?si=91a27a2be1c451f3dc0da8f0575ae39f&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_two%253Fsignature%253DV5EWkpzrBZdXGYOlmQ4X6dVLxs0JPxGaoK2nvbNxqe03PjJw9A%2526scene_id%253Dhome_feed%2526share_id%253D59746302406399291635874649015%2526time%253D1635874649888&_=1635874717270&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=29c5c2381ebd3ba26c1438e15ea1c487&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_one%253Fsignature%253DJnXBk5Pw0ALYDjZx8G4Z30LQnuK2BqY7olKN2Q3yzm6VREOr9p%2526scene_id%253Dhome_feed%2526share_id%253D59183321406627781635958821280%2526time%253D1635958822269&_=1635961047317&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=ee1be1ede59195896dca837a8c481d82&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_one%253Fsignature%253DNXjrme82G3An0wVvWpamvlPMxsxZpvE1gq9dJKyL5YRxElM6Zo%2526scene_id%253Dhome_feed%2526share_id%253D59183321406601851635960934084%2526time%253D1635960935240&_=1635961081900&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=4c4f37e99d677042a503506bb19ea727&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_one%253Fsignature%253DNXjrme82G3An0wVvWpamvl8bpFxZpvE1gq9dJKyL5YRxElM6Zo%2526scene_id%253Dhome_feed%2526share_id%253D59183321406632851635960950492%2526time%253D1635960951401&_=1635961161249&jsonpcallback=jsonp6"
 	       ]
 let signss = [  "ece7a82de85bc7459798e59121f3ed3a",
 		"2023f835bd66c153a708bb19c656d9ab",
@@ -42,13 +45,16 @@ let signss = [  "ece7a82de85bc7459798e59121f3ed3a",
 	      "0ae6d9834dc5f7d7839ea602033d669a",
 	      "29c5c2381ebd3ba26c1438e15ea1c487",
 	      "649c9ae52a87668261d3fbf74fb9fbcb",
-	      "91a27a2be1c451f3dc0da8f0575ae39f"
+	      "91a27a2be1c451f3dc0da8f0575ae39f",
+	      "29c5c2381ebd3ba26c1438e15ea1c487",
+	      "ee1be1ede59195896dca837a8c481d82",
+	      "4c4f37e99d677042a503506bb19ea727"
 ]
 doShare();
 
 async function doShare() {
 	
-	for(let i=0;i<15;i++){
+	for(let i=0;i<18;i++){
 		console.log("-------" + articles[i]);
 		console.log("-------" + signss[i]);
         await postShareInfoa(articles[i],signss[i], i)
