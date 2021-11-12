@@ -39,7 +39,11 @@ let articles = ["https://script.baertt.com/count2/callback?si=ece7a82de85bc74597
 		"https://script.baertt.com/count2/callback?si=29c5c2381ebd3ba26c1438e15ea1c487&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_nine%253Fsignature%253Do9xqzDrKG6wJnYZ5Ek4eLqGwMioQ3Lp1R3LXvBgNylVOMbA02W%2526scene_id%253Dhome_feed%2526share_id%253D59523509406903151636143029240%2526time%253D1636143030929&_=1636143064203&jsonpcallback=jsonp6",
 		"https://script.baertt.com/count2/callback?si=f7faeb6da5bff886e6275fb29c12ce9c&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_eight%253Fsignature%253DbDm0KxOyWQGgYNjrBV4jA2wmJhy6rMJ1oLpzq253Av968kJPEM%2526scene_id%253Dhome_feed%2526share_id%253D59819148406945821636183772703%2526time%253D1636183773856&_=1636183843946&jsonpcallback=jsonp6",
 		"https://script.baertt.com/count2/callback?si=f7faeb6da5bff886e6275fb29c12ce9c&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_eight%253Fsignature%253DpznrQKZ06xYeGkD5yA4wzRwqZsXrKkp18Nm2bvMqRWw9gPdLVO%2526scene_id%253Dhome_feed%2526share_id%253D59819148406934011636183791257%2526time%253D1636183792208&_=1636183853768&jsonpcallback=jsonp5",
-		"https://script.baertt.com/count2/callback?si=f7faeb6da5bff886e6275fb29c12ce9c&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_eight%253Fsignature%253DbDjmABzyXE32GNxlOY4pv6wqyS3oneYaZ9vnQ58wq06peMdkrP%2526scene_id%253Dhome_feed%2526share_id%253D59819148406945801636183806928%2526time%253D1636183807800&_=1636183865044&jsonpcallback=jsonp6"
+		"https://script.baertt.com/count2/callback?si=f7faeb6da5bff886e6275fb29c12ce9c&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_eight%253Fsignature%253DbDjmABzyXE32GNxlOY4pv6wqyS3oneYaZ9vnQ58wq06peMdkrP%2526scene_id%253Dhome_feed%2526share_id%253D59819148406945801636183806928%2526time%253D1636183807800&_=1636183865044&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=0deae8012974c48925841bc2a5b974fd&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_four%253Fsignature%253DnG63ezAQDowMB0vlYg4k0mzmJspdj097L8KN5yR9XpjPOxrbdE%2526scene_id%253Dplaced_top%2526share_id%253D59287664407815831636746040692%2526time%253D1636746041963&_=1636746161523&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=de064e02a83f13c134593aafc9f84e75&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_four%253Fsignature%253DjE9mdZzRG3lxVgkq8na3XAAkZTbDl3e1yJ6vBKw0oObepWDXrM%2526scene_id%253Dhome_feed%2526share_id%253D59287664407922971636746061963%2526time%253D1636746062793&_=1636746220281&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=c62da39836bbde75b0905938e42dcaa3&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_four%253Fsignature%253DPDAM2LbdQB6J8ljGNZazZzlW2H2YLjoaKX0mkV39oyW5xrzpYe%2526scene_id%253Dhome_feed%2526share_id%253D59287664407222021636746070233%2526time%253D1636746071060&_=1636746281308&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=c4d234b6c88930369619ce073b9c1942&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_four%253Fsignature%253DqEkWRmZyvzPO2bBdGX788NbKRiVjper7l36xneA0QpKgM9NYL8%2526scene_id%253Dhome_feed%2526share_id%253D59287664407852031636746323012%2526time%253D1636746323960&_=1636746369150&jsonpcallback=jsonp6"
 	       ]
 let signss = [  "ece7a82de85bc7459798e59121f3ed3a",
 		"2023f835bd66c153a708bb19c656d9ab",
@@ -68,13 +72,17 @@ let signss = [  "ece7a82de85bc7459798e59121f3ed3a",
 	      "29c5c2381ebd3ba26c1438e15ea1c487",
 	      "ece7a82de85bc7459798e59121f3ed3a",
 	      "2023f835bd66c153a708bb19c656d9ab",
-	      "91a27a2be1c451f3dc0da8f0575ae39f"
+	      "91a27a2be1c451f3dc0da8f0575ae39f",
+	      "c4d234b6c88930369619ce073b9c1942",
+	      "c62da39836bbde75b0905938e42dcaa3",
+	      "de064e02a83f13c134593aafc9f84e75",
+	      "0deae8012974c48925841bc2a5b974fd"
 ]
 doShare();
 
 async function doShare() {
 	
-	for(let i=0;i<28;i++){
+	for(let i=0;i<32;i++){
 		console.log("-------" + articles[i]);
 		console.log("-------" + signss[i]);
         await postShareInfoa(articles[i],signss[i], i)
