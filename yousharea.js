@@ -57,7 +57,10 @@ let articles = ["https://script.baertt.com/count2/callback?si=ece7a82de85bc74597
 		"https://script.baertt.com/count2/callback?si=29c4308f206a0addb70a3db84ffeb997&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253DVOZvBzYN5rkDxgX7YYxvGnTMdzwkFVG6v8k7L3yAP6WMnmlGK9%2526uid%253D54763153%2526phone_code%253D3a5bc3098635f75d03e952d21b4710f1%2526scid%253D41204759%2526time%253D1639243435%2526app_version%253D2.0.2%2526sign%253Df6f87ef8643a9dd3043696acde7efb43&_=1639243825135&jsonpcallback=jsonp6",
 		"https://script.baertt.com/count2/callback?si=f7599d6211bde89ab55d720afbb589ed&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fs%253Fsignature%253D2E96MJNGrnvW8pX1dEpeRxiqbk8Xuelmkp645okQ0dyYRDBzxL%2526uid%253D54763153%2526phone_code%253D3a5bc3098635f75d03e952d21b4710f1%2526scid%253D41190417%2526time%253D1639243444%2526app_version%253D2.0.2%2526sign%253Dc2c00744d5a4494415cef9bd073e0a65&_=1639243867555&jsonpcallback=jsonp6",
 		"https://script.baertt.com/count2/callback?si=a8fcb8a34e3f69a2e2a6f28fb8579b28&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_seven%253Fsignature%253D3pjJxr9YwmWqndeOG07NkPWq2TNbJwvaQALRvlPVyZ52g68MDz%2526scene_id%253Dplaced_top%2526share_id%253D59287587412551931639582937060%2526time%253D1639582938822&_=1639583108751&jsonpcallback=jsonp6",
-		"https://script.baertt.com/count2/callback?si=64e88ea42ec792221bcf3fd7dd99bf69&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_seven%253Fsignature%253Dvg9Vr5WAX3dJejlq6GaJL2XdztnMwBd4woYk2PpNxbRZEDzmnL%2526scene_id%253Dplaced_top%2526share_id%253D59287587412553501639583052726%2526time%253D1639583054235&_=1639583268952&jsonpcallback=jsonp6"
+		"https://script.baertt.com/count2/callback?si=64e88ea42ec792221bcf3fd7dd99bf69&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_seven%253Fsignature%253Dvg9Vr5WAX3dJejlq6GaJL2XdztnMwBd4woYk2PpNxbRZEDzmnL%2526scene_id%253Dplaced_top%2526share_id%253D59287587412553501639583052726%2526time%253D1639583054235&_=1639583268952&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=a327305b3b6d6ab49ab8ea77c9e0b304&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_zero%253Fsignature%253DNlWqkrwJYXnOvx5DKb1RMVB3rs9zkwna08g2GjM9RLeV3EPymQ%2526scene_id%253Dplaced_top%2526share_id%253D61506570415038621641216056586&_=1641216548389&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=7d12889b72572e3b4fca743c562402d2&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_zero%253Fsignature%253DZry0KPXd5RYDQVznvq4vRV865cPdGKQ4GlE6go9mAJkeON2wjW%2526scene_id%253Dplaced_top%2526share_id%253D61506570415038711641216090149&_=1641216628043&jsonpcallback=jsonp6",
+		"https://script.baertt.com/count2/callback?si=27d2e8e4faaf8b4e23aa86bb6c14e631&referer=https%253A%252F%252Ffocus.youth.cn%252Farticle%252Fws_zero%253Fsignature%253DEgVbkQOLMqvWm9RrG0a2nwGmGiydz2Xa3xy6doZeXBJzln85PD%2526scene_id%253Dplaced_top%2526share_id%253D61506570415034931641215987881&_=1641216688509&jsonpcallback=jsonp7"
 	       ]
 let signss = [  "ece7a82de85bc7459798e59121f3ed3a",
 		"2023f835bd66c153a708bb19c656d9ab",
@@ -104,13 +107,17 @@ let signss = [  "ece7a82de85bc7459798e59121f3ed3a",
 	      "29c4308f206a0addb70a3db84ffeb997",
 	      "f7599d6211bde89ab55d720afbb589ed",
 	      "64e88ea42ec792221bcf3fd7dd99bf69",
-	      "a8fcb8a34e3f69a2e2a6f28fb8579b28"
+	      "a8fcb8a34e3f69a2e2a6f28fb8579b28",
+	      "27d2e8e4faaf8b4e23aa86bb6c14e631",
+	      "7d12889b72572e3b4fca743c562402d2",
+	      "a327305b3b6d6ab49ab8ea77c9e0b304"
+	    
 ]
 doShare();
 
 async function doShare() {
 	
-	for(let i=0;i<46;i++){
+	for(let i=0;i<49;i++){
 		console.log("-------" + articles[i]);
 		console.log("-------" + signss[i]);
         await postShareInfoa(articles[i],signss[i], i)
