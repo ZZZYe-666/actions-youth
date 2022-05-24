@@ -36,7 +36,7 @@ let ReadArr = [], YouthBody = "",readscore = 0;
   }
   for (let i = 0; i < ReadArr.length; i++) {
     if (ReadArr[i]) {
-      articlebody = ReadArr[i];
+      articlebody = ReadArr[i].replace("zqkd_param=", "p=");
       $.index = i + 1;
       console.log(`-------------------------\n\n开始中青看点第${$.index}次阅读`)
     }
